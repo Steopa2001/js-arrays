@@ -28,10 +28,10 @@ for (let i = 0; i < teachers.length; i++) {
 // teachers.splice(5,1);
 // console.log(teachers);
 
-const index = teachers.indexOf('Ed'); 
+const posizione = teachers.indexOf('Ed'); 
 
-if (index !== -1) {
-  teachers.splice(index, 1);
+if (posizione !== -1) {
+  teachers.splice(posizione, 1);
 }
 
 console.log(teachers);
